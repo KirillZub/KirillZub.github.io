@@ -1,0 +1,122 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  background: url(../img/background.png);
+}
+
+.header {
+  height: 700px;
+}
+
+.header_phone-block {
+  margin-top: 10px;
+}
+
+.header_phone-number {
+  width: 225px;
+  height: 47px;
+  border: 1px solid #8a6d4c;
+  text-align: center;
+}
+
+.header_phone-text {
+  font-size: 21px;
+  color: #ffffff;
+  padding-top: 7px;
+}
+
+.header_phone-button {
+  width: 90px;
+  height: 47px;
+  border: 1px solid #8a6d4c;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: #8a6d4c;
+}
+
+.header_phone-button a {
+  color: #ffffff;
+  color: #ffffff;
+}
+
+.header_navbar {
+  margin-top: 25px;
+  line-height: 60px;
+  background-color: #60428f;
+  border: 6px solid #33244ac7;
+}
+
+.header_navbar-text {
+  text-transform: uppercase;
+  color: #c59c6c;
+  padding: 19px 25px 19px 25px;
+  border: none;
+  font-size: 20px;
+}
+
+.header_navbar-text:hover {
+  color: #c59c6c;
+  cursor: pointer;
+  background-color: #825c8f;
+  border-top: 6px solid #6d4f70d7;
+  border-bottom: 6px solid #6d4f70d7;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.header_navbar-logo {
+  margin-top: -120px;
+  border: 3px solid transparent;
+  border-radius: 200px;
+}
+
+.header_navbar-logo:hover {
+  cursor: default;
+  border: 3px solid #8a6d4c;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.header_information-block-text {
+  height: 400px;
+}
+
+.header_information-title {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 56px;
+  padding-left: 20px;
+}
+
+.header_information-text {
+  color: #ffffff;
+  font-size: 16px;
+  border-left: 1px solid #8a6d4c;
+  padding-left: 20px;
+  word-spacing: 15px;
+}
+
+.header_information-button {
+  height: 70px;
+  width: 780px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #60428f;
+  border: 1px solid transparent;
+  -webkit-clip-path: polygon(65% 0, 70% 50%, 65% 100%, 0% 100%, 0 50%, 0% 0%);
+          clip-path: polygon(65% 0, 70% 50%, 65% 100%, 0% 100%, 0 50%, 0% 0%);
+}
+
+.header_information-button p {
+  line-height: 70px;
+  margin-right: 250px;
+}
+
+.header .img-photo {
+  margin-top: -350px;
+  margin-left: -150px;
+}

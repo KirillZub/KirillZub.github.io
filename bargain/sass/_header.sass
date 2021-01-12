@@ -1,0 +1,85 @@
+.header
+    height: 700px
+    
+    &_phone
+        &-block
+            margin-top: 10px
+        &-number
+            width: 225px
+            height: 47px
+            border: 1px solid $dark-orange
+            text-align: center
+            
+        &-text
+            font-size: 21px
+            color: $light
+            padding-top: 7px
+        &-button
+            width: 90px
+            height: 47px
+            border: 1px solid $dark-orange
+            text-align: left
+            text-transform: uppercase
+            font-size: 12px
+            background-color: $dark-orange     
+            a
+                color: $light
+                &:hover
+                color: $light
+
+    &_navbar
+        margin-top: 25px
+        line-height: 60px
+        background-color: $background-button
+        border: 6px solid $background-button-border
+        &-text
+            text-transform: uppercase
+            color: $logo
+            padding: 19px 25px 19px 25px
+            border: none
+            font-size: 20px
+            &:hover
+                color: $logo
+                cursor: pointer
+                background-color: $background-button-hover
+                border-top: 6px solid $background-button-border-hover
+                border-bottom: 6px solid $background-button-border-hover
+                transition: all 0.3s
+        &-logo
+            margin-top: -120px
+            border: 3px solid transparent
+            border-radius: 200px
+            &:hover
+                cursor: default
+                border: 3px solid $dark-orange
+                transition: all 0.5s
+    &_information
+        &-block
+            &-text
+                height: 400px
+        &-title
+            color: $light
+            text-transform: uppercase
+            font-size: 56px
+            padding-left: 20px
+        &-text
+            color: $light
+            font-size: 16px
+            border-left: 1px solid $dark-orange
+            padding-left: 20px
+            word-spacing: 15px
+        &-button 
+            height: 70px
+            width: 780px
+            font-size: 16px
+            text-transform: uppercase
+            color: $light
+            background-color: $background-button
+            border: 1px solid transparent
+            clip-path: polygon(65% 0, 70% 50%, 65% 100%, 0% 100%, 0 50%, 0% 0%)
+            p
+                line-height: 70px
+                margin-right: 250px
+    .img-photo
+        margin-top: -350px
+        margin-left: -150px       
